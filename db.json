@@ -1,0 +1,160 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "accounts": [
+                {
+                    "accountNumber": "D123456",
+                    "accountHolders": [
+                        {
+                            "name": "Joe Smith"
+                        },
+                        {
+                            "name": "Jill Smith"
+                        }
+                    ],
+                    "policies": [
+                        {
+                            "uwCompany": "Acme Insurance Company",
+                            "uwLogo": "https://us-east-1.awsmamzon.com/uwc/Acme-12345.png",
+                            "policyNumber": "PN1234545",
+                            "type": "Auto Insurance",
+                            "startDate": "10/1/2019",
+                            "endDate": "4/1/2020",
+                            "totalPremium": "$1200",
+                            "coverages": [
+                                {
+                                    "name": "Uninsured Motorist",
+                                    "value": "$100,000/$300,000"
+                                },
+                                {
+                                    "name": "Medical Coverage",
+                                    "value": "$5000"
+                                },
+                                {
+                                    "name": "Bodily Injury",
+                                    "value": "$250,000/$500,000"
+                                }
+                            ],
+                            "coverables": [
+                                {
+                                    "name": "2014 BMW 750 LXI",
+                                    "coverages": [
+                                        {
+                                            "name": "Collision",
+                                            "value": "$500"
+                                        },
+                                        {
+                                            "name": "Comprehensive",
+                                            "value": "$500"
+                                        },
+                                        {
+                                            "name": "Property Damage",
+                                            "value": "$100,000"
+                                        },
+                                        {
+                                            "name": "Road Side Assistance",
+                                            "value": "Yes"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "2017 Acura MDX",
+                                    "coverages": [
+                                        {
+                                            "name": "Collision",
+                                            "value": "$500"
+                                        },
+                                        {
+                                            "name": "Comprehensive",
+                                            "value": "$500"
+                                        },
+                                        {
+                                            "name": "Property Damage",
+                                            "value": "$100,000"
+                                        },
+                                        {
+                                            "name": "Road Side Assistance",
+                                            "value": "Yes"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "uwCompany": "Acme Insurance Company",
+                            "uwLogo": "https://us-east-1.awsmamzon.com/uwc/Acme-12345.png",
+                            "policyNumber": "HN1234546",
+                            "type": "Home Insurance",
+                            "startDate": "10/1/2019",
+                            "endDate": "10/1/2020",
+                            "totalPremium": "$1600",
+                            "coverables": [
+                                {
+                                    "name": "123 Main St., Dallas, TX 1234",
+                                    "coverages": [
+                                        {
+                                            "name": "Package - Cov A - Dwelling",
+                                            "value": "$400,000"
+                                        },
+                                        {
+                                            "name": "Package - Cov E - Personal Liability",
+                                            "value": "$300,000"
+                                        },
+                                        {
+                                            "name": "Package - Cov F - Guest Medical",
+                                            "value": "$1,000"
+                                        },
+                                        {
+                                            "name": "Contents Replacement Cost",
+                                            "value": "Yes"
+                                        },
+                                        {
+                                            "name": "Extended Replacement Cost",
+                                            "value": "110%"
+                                        },
+                                        {
+                                            "name": "Separate Structure",
+                                            "value": "5%"
+                                        },
+                                        {
+                                            "name": "ALE Term",
+                                            "value": "12 Months"
+                                        },
+                                        {
+                                            "name": "Loss of Use",
+                                            "value": "25%"
+                                        },
+                                        {
+                                            "name": "Special Limits on Personal Property",
+                                            "value": "Coverred"
+                                        },
+                                        {
+                                            "name": "Building Ordinance Or Law Coverage",
+                                            "value": "10%"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "billing": {
+                        "billed": "$0",
+                        "pastDue": "$0",
+                        "paid": "$1,200",
+                        "unbilled": "$0"
+                    },
+                    "agent": {
+                        "name": "Peggy O'neil",
+                        "address": "1234 Main St",
+                        "cityStateZip": "Dallas, TX 12345",
+                        "phone": "+1 3022343456",
+                        "email": "peggyo@agency.com",
+                        "web": "http://agency.com/agents/Peggy",
+                        "photo": "https://us-east-1.awsmamzon.com/agents/Peggy-12345.png"
+                    }
+                }
+            ]
+        }
+    ]
+}
