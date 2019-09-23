@@ -2,6 +2,7 @@
     "users": [
         {
             "id": 1,
+            "name": "Jill Smith",
             "accounts": [
                 {
                     "accountNumber": "D123456",
